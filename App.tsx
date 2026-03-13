@@ -1,9 +1,16 @@
+import React from 'react';
 import {Text, View} from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
-    <View>
-      <Text>Hello Abhishek 🚀</Text>
-    </View>
+    <SafeAreaView>
+      <View>
+        <Text>Hello Abhishek 🚀</Text>
+        <Text>Hello Abhishek 🚀</Text>
+        <Text>Hello Abhishek 🚀</Text>
+        <Text>Hello Abhishek 🚀</Text>
+      </View>
+    </SafeAreaView>
   );
 }
